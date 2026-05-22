@@ -1,0 +1,30 @@
+.profile-page {
+    margin-top: 90px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.profile-page .text{
+    font-size:  3rem;
+    font-weight: bold;
+}
+
+.profile-page .change-button {
+    flex:1;
+    
+    height: 38px;
+    max-width: 120px;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.profile-page .logOff-button {
+    background-color: rgb(185, 17, 17);
+    color: white;
+}
+
+.profile-page .divider{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
