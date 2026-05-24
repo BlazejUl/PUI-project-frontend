@@ -51,15 +51,16 @@ export function Header({ isLoginOpen, setIsLoginOpen, loggedIn, setloggedIn }) {
             {isLoginOpen && (
                 <div className="modal-overlay">
                     <div className="modal-box">
-                        <h2>Logowanie</h2>
+                        <h2>Login</h2>
                         <input type="text" placeholder="Email" className="modal-input" />
-                        <input type="password" placeholder="Hasło" className="modal-input" />
+                        <input type="password" placeholder="Password" className="modal-input" />
 
                         <div className="modal-actions">
-                            <button className="btn-submit" onClick={() => { setloggedIn(true); setIsLoginOpen(false) }}>Zaloguj</button>
+                            <button className="btn-submit" onClick={() => { setloggedIn(true); setIsLoginOpen(false) }}>Login</button>
+                            <button className="btn-submit" onClick={() => { setloggedIn(true); setIsLoginOpen(false) }}>Sign up</button>
 
                             <button className="btn-close" onClick={() => setIsLoginOpen(false)}>
-                                Anuluj
+                                Cancel
                             </button>
                         </div>
                     </div>
