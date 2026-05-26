@@ -1,12 +1,7 @@
-# React + Vite
+aby odpalić trzeba: 
+1.pobrać node.js
+2.wpisać w folderze do którego skopiowało się repo `npm install`
+2.1 jeżeli błąd to npm error syscall spawn "C:\Windows\System32\cmd.exe" wpisać `$env:ComSpec="C:\Windows\System32\cmd.exe"`
+2.2 jeżeli błąd to PSSecurity Exeption wpisać `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+3. wpisać `npm run dev` i wejść na wyświetlonego linka http
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
