@@ -1,7 +1,7 @@
 import { Header } from "../../components/Header"
 import './FavoritesPage.css'
 
-export function FavoritesPage({ isLoginOpen, setIsLoginOpen, loggedIn, setloggedIn }) {
+export function FavoritesPage({ isLoginOpen, setIsLoginOpen, userId, setUserId }) {
 
 
 
@@ -12,8 +12,8 @@ export function FavoritesPage({ isLoginOpen, setIsLoginOpen, loggedIn, setlogged
 
             <Header isLoginOpen={isLoginOpen}
                 setIsLoginOpen={setIsLoginOpen}
-                loggedIn={loggedIn}
-                setloggedIn={setloggedIn} />
+                userId={userId}
+                setUserId={setUserId} />
 
             <div className="favorites-page">
                 <p className="text">Favorites</p>

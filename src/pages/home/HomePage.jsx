@@ -1,7 +1,7 @@
 import { Header } from "../../components/Header"
 import './HomePage.css'
 
-export function HomePage({ isLoginOpen, setIsLoginOpen, loggedIn, setloggedIn }) {
+export function HomePage({ isLoginOpen, setIsLoginOpen, userId, setUserId }) {
 
 
 
@@ -12,8 +12,8 @@ export function HomePage({ isLoginOpen, setIsLoginOpen, loggedIn, setloggedIn })
 
             <Header isLoginOpen={isLoginOpen}
                 setIsLoginOpen={setIsLoginOpen}
-                loggedIn={loggedIn}
-                setloggedIn={setloggedIn} />
+                userId={userId}
+                setUserId={setUserId} />
 
             <div className="home-page">
                 <div className="search">
